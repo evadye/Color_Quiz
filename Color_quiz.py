@@ -28,8 +28,8 @@ def opening():
 opening()
 
 
-# Indent questions per color to form an answer path to get to a specific result
-# Once cool category is introduced, indent 'warm' and 'cool' colors together to stay organized
+# Note for later: indent questions per color to form an answer path to get to a specific result
+# Once 'cool' category is introduced, indent 'warm' and 'cool' colors together to stay organized
 # Future goal: figure out how to loop back to question if wrong input is given
 
 
