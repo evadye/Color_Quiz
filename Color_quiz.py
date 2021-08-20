@@ -124,3 +124,19 @@ def game():
 
 
 game()
+
+
+def play_again():
+    while True:
+        answer = raw_input("Would you like to play again? ")
+        if answer in negative_answers:
+            print "Thanks for playing!"
+            exit()
+        elif answer in positive_answers:
+            print "Awesome!"
+            return game()
+        elif answer not in question_answers:
+            print "Please enter valid input."
+            return play_again()
+
+play_again()
