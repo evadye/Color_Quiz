@@ -8,9 +8,10 @@ negative_answers = ["No", "no", "N", "n"]
 positive_answers = ["Yes", "yes", "Y", "y"]
 color_answers = ["Red", "red", "Orange", "orange", "Yellow", "yellow", "Green", "green", "Blue", "blue", "Indigo",
                  "indigo", "Purple", "purple"]
+question_answers = positive_answers + negative_answers
 
 # Message library
-victory_message = "Woo-hoo! Thanks for playing!"
+victory_message = "Woo-hoo! Aren't colors wonderful?"
 defeat_message = "Drat. I need to study the color wheel better..."
 
 
